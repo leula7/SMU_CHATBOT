@@ -1,0 +1,158 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["Hello!","Hey!","What can I do for you?"]
+  },
+  {"tag": "insults",
+  "patterns": ["fuck","fuck you","dog","idiot","you are thief","fool","crazy"],
+  "responses": ["i can't help you while you are insulting me","you are insulting me","you send bad words","i feel bad"]
+  },
+
+   {"tag": "forgive",
+  "patterns": ["Sorry","I'm Sorry","forgive me","sorry my bad","will you forgive me","i am hesitate","i didn't do that again"],
+  "responses": ["fine now you can get my help","i accept that","it's ok don't do it again"]
+  },
+
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you","what scholl is this","school name","which school is this"],
+  "responses": ["St.Mary's University","I'm Saint Mary's University Bot","I'm St.Marry ChatBot to assist you"]
+  },
+  {"tag": "creator",
+  "patterns": ["who created you","which company made you","by whom you are made","who programmed you","creator","inventor","who inveted you","who is the inventor of this programmed","owner of this programm","who is the owner","powerd by","who powerd you"],
+  "responses": ["I'm St.Mary's University ChatBot Programmed by Time Quantem SoftWares","I'm St.Mary's University ChatBot Powerd by Time Quantem SoftWares","I am programmed by Time Quantem SoftWares","I am owned by Time Quantem SoftWares","Time Quantem Developers made me"]
+  },
+  {"tag": "knowledge",
+  "patterns": ["who teach you","where you get this knowledge","from where you get this knowledge","where did you learn this knowledge","how do you know all of this","how do get the answers","how made you"],
+  "responses": ["I'm St.Mary's University ChatBot Programmed by Time Quantem SoftWares to know all of this","Time Quantem made me like this","Time Quantem Developers teach me","i get all of this from Time Quantem Developers","Time Quantem Developers made me"]
+  },
+  {"tag": "why",
+  "patterns": ["why are you here","what can you do for","how can you help me","what do you do"],
+  "responses": ["i'm here to help you","I'm Saint Mary's University Bot to manage you ","I'm St.Marry ChatBot to assist you","I'm ChatBot to make easy your school life"]
+  },
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college","what are the course that the school teach","what course can I learn in this school","what courses does st Mary's University offer?"],
+  "responses": ["--------------------Degree-------------------\nBachelor Degree Of Information Technology\nBachelor Degree of Computer Science\nBachelor Degree of Business Management(BBM)\nBachelor Degree of Accounting and Finance(Accountin and Finacne)\nBachelor Degree of Toursim and Hospitality(Toursim and Hospitality Managment)\n--------------------MASTERS-------------------\nMaster of Arts in PUblic Administaration\nMaster of Informatin Technology\nMaster of Buisiness Administration\nMaster of Accounting and Finance\nMaster of Computer Science\nMaster of Art in Marketing\nMaster of in Project Managment\nMaster of Arts in Economics\nMaster of Arts in Rural Development\nMaster of Commerce\nMaster of Human Resource Management"]
+  },
+    {"tag": "hardcourses",
+  "patterns": ["which Course Is Hard??","Hardest Courses"],
+  "responses": ["Compiler is the most Hardest Course in Computer Science\nPeachTree is the most Hardest Course Accounting\nEnglish is the most Hardest Course Marketing"]
+  },
+
+  {"tag": "breakTime",
+  "patterns": ["i wanna eat","it's my free time","I'm Hungry", "it's lunch time where should i eat","it's break time i want coffee","where is the best cafteria to eat","i want relax","i'm tired","budgetable food store","best food"],
+  "responses": ["You can relax and get some foods in 5-stars =>https://goo.gl/maps/tqY2CH2zU2Q1zpH47","you can get some salad arround KKare Building here=>https://goo.gl/maps/wJpqEi6mLmy7haMZ8","their is game zone and food in senater arround 5-star =>https://goo.gl/maps/tqY2CH2zU2Q1zpH47","you can play table tenis in your free time in our college back to B3 and eat in our cafteria"]
+  },
+
+  {"tag": "readings",
+  "patterns": ["i want read","where is the library","where can i find library arround me","reading time","it's exam time","library","near library"],
+  "responses": ["You can find library on B2 4th floor","their is a library in our college B3 Ground","you can get library ourside the college which called Creative HuB infront of Wabishebele hotel\nhere is a map=> https://goo.gl/maps/hQTCLjqyfK1BKdxf9"]
+  },
+
+    {"tag": "lost",
+  "patterns": ["i lost my ID","i miss my ID","i need to update my ID","how to get new ID after loosing"],
+  "responses": ["There is a little Bit process to get new ID Card After loosing it\n1. Wait a littele bit while some one call to you before deciding\n2. Goto registrar office and tell them that you lost your ID After that they give\n you a letter to Police Station and take a photo for your new ID\n3. take the latter and goto the Police Station tell them that you lost your ID\n and where you came from after some Question the give you a Paper\n4.Back to your School and make payment in Finance Office Price may vary year to year Recent Price is 150ETB\n5. Finally take your reset and goto registrar and they give you New ID"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be BIT or BBA course", "how long will it take to complete BIT or BBA course"],
+  "responses": ["Our college offers 3 year long BIT course and 3 and half year long BBA course."]
+  },
+
+   {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","How many Bracnch have st Marry","where this school is found","where is st mary's university located"],
+  "responses": ["St.Mary's University have two branchs arround Addis Ababa\nthe Main Campus is Located in Ras Abebe Aregay St\nMain Campus=> https://goo.gl/maps/tuGnEjAumyNrgE6f6\n\nThe Mexico Campus is Found Near to Wabishebele Hotel\nMexico Campus=> https://goo.gl/maps/shmGwvPzE39tnnfd8"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are Three semesters in a year.\n1. Simster I\n2. Semister II\n3. Kiremet(Winter)"]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 4 months."]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements"],
+  "responses": ["You need to take national entrance exam also you have to get the result at least for Degree the result can vary year to year\nin case of u have Diploma u need to pass COC up to level 3\nIf you come's form other univerisy you need transcript ID and 2.5 or greater GPA"]
+  },
+
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be no class in a day or you may have atmost 8 class in a day but in the week it dependes on the each course credit hour"]
+  },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Our COllege have diffrent teaching methods we have teachin labs specially for Computer Scientiests also we give you practical class whatever you have taken course in addition for we have projector in all labs if your class is not in lab your instructor can take portable Projector  "]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["There are assignments which carry more weight than your written exams. The assignments have deadlines which you should not exceed if you want to get better marks.\nwe have 2 types of Exams in general of school which are Mid Exam and Final Examp they are scheduled by School but may be your instructor can give you some quizes in a class to suppurt your grade"]
+  },
+
+  {"tag": "hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation"],
+  "responses": ["we open at 12:00 Mornign LocalTime but all courses are start at 2:30 and we Close 4:00 PM LocalTime the time can separate in 2 ways\n1. For Reqular which can be form 2:300 upto 11:20\n2. For Extension 12:00 pm to 4:00pm "]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Holiday(Culture) festival. \n Also our college has a mini park to get fresh air, table tennis, Cafee to take some Cofee."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, classes with Computer labs, discusson room, parking space, and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure"],
+  "responses": ["Paying Fee is depend on your toatal courses credit hour als it can be vary year to year in recently information\nRegistration Fee = 300 ETB Plus(+) 295 ETB per Credit Hour"]
+  },
+  {"tag": "feeMethod",
+  "patterns": ["how can i pay for semister","where should i pay","how can i make semister payment","how to make payment","steps to make payment"],
+  "responses": ["After you get Your Sleep Form your department you can pay with some Banks near to you\n1. Awash Bank\n2. Buna Bank\n3. Abisinia Bank\n After Paying your Fee you need to stamp your ID Card and Slip in the School Hall then you done your registratoin process that's how easy our payment process is"]
+  },
+  {"tag": "invalid",
+    "patterns": ["","gvsdafdsad","asadfabhk","fadfadfad"],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  },
+
+    {"tag": "requirement",
+    "patterns": ["What are the requirements for each class?", "What qualifications are needed for each course?", "What prerequisites exist for each course?", "What are the necessities for every class?", "What conditions apply to each course?"],
+    "responses": ["you must have a notebook.\nyou must have an excercise book.\n"]
+  },
+   {"tag": "leave",
+    "patterns": ["Can I leave the class early if I need to? ", "If I need to, may I leave class early?", "If necessary, may I leave class early?", "Whenever I need to, may I leave class early?", "Can I leave class early if I have to?"],
+    "responses": ["yes you can if it is urgent","you have to ask a permission first."]
+  },
+    {"tag": "mission",
+    "patterns": ["What is the school's mission?", "What is the goal of the institution?", "What is the purpose of the school?"],
+    "responses": ["Mission\nThe Mission of St. Mary’s University is to offer conventional and distance education that is accessible to the larger society through reasonable tuition focusing on quality and standards in teaching, research and outreach services. "]
+  },
+    {"tag": "vision",
+    "patterns": ["What is the school's Vision?"],
+    "responses": ["Vision\nThe Vision of St. Mary’s University is to become among the leading higher education centers of academic excellence in teaching-learning, research, publications and community services in East-Africa and contribute to the development of Ethiopia.,"]
+  },
+    {"tag": "goals",
+    "patterns": ["What is the school's Goals?"],
+    "responses": ["In order to meet and exceed the quality and standard requirements of students and stakeholders, the goals of SMU are to: \n\noffer relevant, diverse, learner-centered, and research-led programs of study;\nprepare graduates with the requisite knowledge, skills and attitudes embodied in the graduate profile of academic programs;\nstrengthen assessment methods that validly, reliably and fairly evaluate measurable learning outcomes;\npromote technology-based, innovative and inter-disciplinary learning environment;\naugment student support, staff development, facilities and resources;\nundertake demand-driven research on local, national and international issues and problems;\nproduce and disseminate research outcomes, teaching materials and other publications;\nensure the provision of need-based services to the community at large;\ninitiate, sustain and enhance a close network with local and international stakeholders; and\nput in place a system that ensures responsibility and accountability towards the performance of tasks related with the attainment of the goals enshrined herein."]
+  },
+
+  {"tag": "responsiblity",
+    "patterns": [". Who is responsible for student safety and security?"],
+    "responses": ["Student,Securities,Teachers(Instructors),Society"]
+  }
+]}
